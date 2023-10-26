@@ -1,0 +1,4 @@
+{
+    "ScreenWidth": 1500,
+    "ScreenHeight": 1500
+}

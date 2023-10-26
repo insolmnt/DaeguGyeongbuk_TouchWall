@@ -1,0 +1,7 @@
+{
+    "SensorList": [],
+    "UseKeepInTouch": true,
+    "InputDelay": 0.30000001192092898,
+    "IsLidarMaxHz": false,
+    "EmptyNoShowSqrDist": 1.0
+}

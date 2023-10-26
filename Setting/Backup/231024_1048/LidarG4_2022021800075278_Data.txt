@@ -1,0 +1,53 @@
+{
+    "Addr": "",
+    "Memo": "",
+    "BasicColor": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "LeftData": {
+        "IsUse": false,
+        "MinDist": 20.0,
+        "Angle": 90.0,
+        "Scale": 1.0,
+        "GroupAngle": 10,
+        "GroupMaxCount": 0,
+        "IsXFlip": true,
+        "IsYFlip": false,
+        "TouchRight": 100.0,
+        "TouchBottom": -80.0,
+        "TouchLeft": -100.0,
+        "TouchTop": 80.0,
+        "ScreenTop": 0.0,
+        "ScreenRight": 0.0,
+        "ScreenBottom": 0.0,
+        "ScreenLeft": 0.0,
+        "SizeWidthRate": 1.0,
+        "SizeHeightRate": 1.0,
+        "IgnoreList": []
+    },
+    "RightData": {
+        "IsUse": false,
+        "MinDist": 20.0,
+        "Angle": 90.0,
+        "Scale": 1.0,
+        "GroupAngle": 10,
+        "GroupMaxCount": 0,
+        "IsXFlip": true,
+        "IsYFlip": false,
+        "TouchRight": 100.0,
+        "TouchBottom": -80.0,
+        "TouchLeft": -100.0,
+        "TouchTop": 80.0,
+        "ScreenTop": 0.0,
+        "ScreenRight": 0.0,
+        "ScreenBottom": 0.0,
+        "ScreenLeft": 0.0,
+        "SizeWidthRate": 1.0,
+        "SizeHeightRate": 1.0,
+        "IgnoreList": []
+    },
+    "SerialNo": "2022021800075278"
+}

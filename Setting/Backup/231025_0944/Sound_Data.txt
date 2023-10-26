@@ -1,0 +1,6 @@
+{
+    "IsBgRandom": true,
+    "BgVolume": 0.5,
+    "BgFadeTime": 3.0,
+    "EffectVolume": 1.0
+}

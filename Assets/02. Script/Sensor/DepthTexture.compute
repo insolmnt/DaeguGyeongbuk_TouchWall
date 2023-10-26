@@ -1,0 +1,73 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+
+float rand(float2 co)
+{
+	return(frac(sin(dot(co.xy, float2(12.9898, 78.233))) * 43758.5453)) * 1;
+} 
+
+
+struct ScreenCheckData
+{
+	float depth;
+	float saveScreen;
+	float checkScreen;
+	float sum;
+	int count;
+};
+
+//RWStructuredBuffer<Cube> cubes;
+
+
+//"renderTexture", DepthRenderTexture);
+//"depth", DepthRawFloatList);
+//"screen", CheckFloorFloat);
+//"startX", StartX);
+//"startY", StartY);
+//"width", ViewPortDepthWidth);
+//"height", ViewPortDepthHeight);
+//"min", Data.MinDist);
+//"max", Data.IsMaxDistUse ? Data.MaxDist : 99999999);
+
+RWTexture2D<float4> renderTexture;
+RWStructuredBuffer<ScreenCheckData> screen;
+int checkCount;
+int checkDist;
+float startX;
+float startY;
+//float width;
+//float height;
+float min;
+float max;
+
+[numthreads(16, 16, 1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+	int depthIndex = id.x + startX + (id.y + startY) * 640;
+	//int colorIndex = id.x + id.y * width;
+
+	ScreenCheckData data = screen[depthIndex];
+	int zeroCheck = step(1, data.depth);
+	data.count += zeroCheck;
+	data.sum += data.depth * zeroCheck;
+
+	//int countCheck = step(checkCount, data.count);
+	if(data.count >= checkCount)
+	{
+		float avg = data.sum / data.count;
+		if (abs(avg - data.saveScreen) < checkDist)
+		{
+			data.checkScreen = avg;
+		}
+		data.count = 0;
+		data.sum = 0;
+	}
+	screen[depthIndex] = data;
+
+
+	float color = step(min, data.checkScreen - data.depth) * step(data.checkScreen - data.depth, max);
+	renderTexture[id.xy] = float4(color, color, color, 1);
+}

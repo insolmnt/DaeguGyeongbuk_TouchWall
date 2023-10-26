@@ -1,0 +1,3590 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4009698183845418989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698183845418978}
+  - component: {fileID: 4009698183845418976}
+  - component: {fileID: 4009698183845418979}
+  m_Layer: 5
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698183845418978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698183845418989}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184396824950}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &4009698183845418976
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698183845418989}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 2
+  m_GateFitMode: 0
+  m_FOVAxisMode: 1
+  m_SensorSize: {x: 70, y: 60}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 61.927517
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -100
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &4009698183845418979
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698183845418989}
+  m_Enabled: 1
+--- !u!1 &4009698183894340220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698183894340221}
+  - component: {fileID: 4009698183894340211}
+  - component: {fileID: 4009698183894340210}
+  m_Layer: 5
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698183894340221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698183894340220}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184116113366}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &4009698183894340211
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698183894340220}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 2
+  m_GateFitMode: 0
+  m_FOVAxisMode: 1
+  m_SensorSize: {x: 70, y: 60}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 61.927517
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -100
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &4009698183894340210
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698183894340220}
+  m_Enabled: 1
+--- !u!1 &4009698184040808605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184040808594}
+  - component: {fileID: 4009698184040808595}
+  m_Layer: 0
+  m_Name: "\uD0A4\uB125\uD2B8"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698184040808594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184040808605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698184814321212}
+  - {fileID: 4009698185173757594}
+  - {fileID: 4009698185035265090}
+  - {fileID: 4009698184661254696}
+  - {fileID: 4009698184421326435}
+  - {fileID: 4009698184116113366}
+  - {fileID: 4009698184396824950}
+  m_Father: {fileID: 4009698184112886087}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184040808595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184040808605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7bf3769e09161d43b132e19b730a956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SensorName: 
+  ConnectFailMsg: 
+  SensorId:
+    Model: 4
+    Port: 
+    PortNumber: 0
+  IsConnect: 0
+  LeftBackView: {fileID: 4009698185173757595}
+  MainBackView: {fileID: 4009698185035265091}
+  RightBackView: {fileID: 4009698184661254697}
+  LeftTopView: {fileID: 4009698184421326432}
+  MainTopView: {fileID: 4009698184116113367}
+  RightTopView: {fileID: 4009698184396824951}
+  DepthWidth: 512
+  DepthHeight: 424
+  SettingColorImageScale: {x: 1, y: 1, z: 1}
+  SettingDepthImageScale: {x: 1, y: 1, z: 1}
+  Data:
+    Memo: 
+    ViewColor: {r: 1, g: 1, b: 1, a: 1}
+    ColorCameraName: 
+    LeftBackview:
+      IsUse: 0
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchDepthPoints:
+      - {x: 100, y: 300}
+      - {x: 500, y: 300}
+      - {x: 500, y: 50}
+      - {x: 100, y: 50}
+      MinDist: 150
+      MaxDist: 250
+      IsMaxDistUse: 1
+      MinArea: 60
+      MaxArea: 500
+      IsMaxAreaUse: 1
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      ErosionVal: 0
+      ExpansionVal: 0
+      IsErosionNextExpansion: 1
+      ScreenCheckRate: 60
+      ScreenCheckMaxDist: 500
+      IsTouchCenter: 1
+      IsOutlineAllTouch: 0
+      OutlineAllTouchInterval: 10
+      XCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    MainBackview:
+      IsUse: 0
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchDepthPoints:
+      - {x: 100, y: 300}
+      - {x: 500, y: 300}
+      - {x: 500, y: 50}
+      - {x: 100, y: 50}
+      MinDist: 150
+      MaxDist: 250
+      IsMaxDistUse: 1
+      MinArea: 60
+      MaxArea: 500
+      IsMaxAreaUse: 1
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      ErosionVal: 0
+      ExpansionVal: 0
+      IsErosionNextExpansion: 1
+      ScreenCheckRate: 60
+      ScreenCheckMaxDist: 500
+      IsTouchCenter: 1
+      IsOutlineAllTouch: 0
+      OutlineAllTouchInterval: 10
+      XCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    RightBackview:
+      IsUse: 0
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchDepthPoints:
+      - {x: 100, y: 300}
+      - {x: 500, y: 300}
+      - {x: 500, y: 50}
+      - {x: 100, y: 50}
+      MinDist: 150
+      MaxDist: 250
+      IsMaxDistUse: 1
+      MinArea: 60
+      MaxArea: 500
+      IsMaxAreaUse: 1
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      ErosionVal: 0
+      ExpansionVal: 0
+      IsErosionNextExpansion: 1
+      ScreenCheckRate: 60
+      ScreenCheckMaxDist: 500
+      IsTouchCenter: 1
+      IsOutlineAllTouch: 0
+      OutlineAllTouchInterval: 10
+      XCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    LeftTopview:
+      IsUse: 0
+      Angle: 0
+      Scale: 1
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchRight: 200
+      TouchBottom: -100
+      TouchLeft: -200
+      TouchTop: 100
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      YLeft: 160
+      YRight: 160
+      CameraPositionX: 0
+      CameraPositionY: 0
+      GroupAngle: 10
+      GroupMaxCount: 0
+    MainTopview:
+      IsUse: 0
+      Angle: 0
+      Scale: 1
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchRight: 200
+      TouchBottom: -100
+      TouchLeft: -200
+      TouchTop: 100
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      YLeft: 160
+      YRight: 160
+      CameraPositionX: 0
+      CameraPositionY: 0
+      GroupAngle: 10
+      GroupMaxCount: 0
+    RightTopview:
+      IsUse: 0
+      Angle: 0
+      Scale: 1
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchRight: 200
+      TouchBottom: -100
+      TouchLeft: -200
+      TouchTop: 100
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      YLeft: 160
+      YRight: 160
+      CameraPositionX: 0
+      CameraPositionY: 0
+      GroupAngle: 10
+      GroupMaxCount: 0
+  Kinect: {fileID: 4009698184814321213}
+--- !u!1 &4009698184061829500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184061829501}
+  - component: {fileID: 4009698184061829490}
+  m_Layer: 0
+  m_Name: Main View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184061829501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184061829500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698185881720815}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184061829490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184061829500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a0db167b6f62048b1317e853203fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185881720814}
+  Screen: 1
+  Data:
+    IsUse: 0
+    MinDist: 20
+    Angle: 90
+    Scale: 1
+    GroupAngle: 10
+    GroupMaxCount: 0
+    IsXFlip: 1
+    IsYFlip: 0
+    TouchRight: 100
+    TouchBottom: -80
+    TouchLeft: -100
+    TouchTop: 80
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    SizeWidthRate: 1
+    SizeHeightRate: 1
+    IgnoreList: []
+  ScreenData:
+    TouchScreenStartX: 0
+    TouchScreenStartY: 0
+    TouchScreenWidth: 0
+    TouchScreenHeight: 0
+  TouchWidth: 0
+  TouchHeight: 0
+--- !u!1 &4009698184112886086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184112886087}
+  - component: {fileID: 4009698184112886084}
+  m_Layer: 0
+  m_Name: "\uC13C\uC11C"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184112886087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184112886086}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -898.42224, y: -467.5455, z: 0.4029888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698185694320935}
+  - {fileID: 4009698184040808594}
+  - {fileID: 4009698185963857389}
+  - {fileID: 4009698185527536815}
+  - {fileID: 4009698185881720815}
+  - {fileID: 4009698184141746550}
+  - {fileID: 4009698185626348467}
+  - {fileID: 4009698184529042261}
+  - {fileID: 4009698184960693377}
+  - {fileID: 4009698184292157845}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184112886084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184112886086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c79add2907570468341fec188bd8eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AstraPrefab: {fileID: 4009698185963857378}
+  LidarG4Prefab: {fileID: 4009698185881720814}
+  LidarUstPrefab: {fileID: 4009698185527536812}
+  KinectPrefab: {fileID: 4009698184040808595}
+  DebugModeText: {fileID: 0}
+  StartSensorConnectPanel: {fileID: 0}
+  StartSensorConnectTextPrefab: {fileID: 0}
+  Data:
+    SensorList: []
+    UseKeepInTouch: 0
+    InputDelay: 0.3
+    IsLidarMaxHz: 0
+    EmptyNoShowSqrDist: 1
+  SensorList: []
+  IsShowDebugMode: 0
+--- !u!1 &4009698184116113361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184116113366}
+  - component: {fileID: 4009698184116113367}
+  m_Layer: 0
+  m_Name: Main Top View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184116113366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184116113361}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 898.42224, y: 467.5455, z: -0.4029888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698183894340221}
+  m_Father: {fileID: 4009698184040808594}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184116113367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184116113361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddc601cde7ecdf45b4750950bf77b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698184040808595}
+  Screen: 1
+  CoordCamera: {fileID: 4009698183894340211}
+  Data:
+    IsUse: 0
+    Angle: 0
+    Scale: 1
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchRight: 500
+    TouchBottom: -300
+    TouchLeft: -500
+    TouchTop: 300
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    YLeft: 160
+    YRight: 160
+    CameraPositionX: 0
+    CameraPositionY: 0
+    GroupAngle: 10
+    GroupMaxCount: 0
+  Slope: 1
+  TouchCount: 0
+  InputIndex: 0
+--- !u!1 &4009698184141746545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184141746550}
+  m_Layer: 0
+  m_Name: --------------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184141746550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184141746545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184112886087}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4009698184187040848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184187040849}
+  - component: {fileID: 4009698184187040855}
+  - component: {fileID: 4009698184187040854}
+  m_Layer: 5
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698184187040849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184187040848}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698185977634200}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &4009698184187040855
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184187040848}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 2
+  m_GateFitMode: 0
+  m_FOVAxisMode: 1
+  m_SensorSize: {x: 60, y: 49.5}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 52.67082
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -100
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &4009698184187040854
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184187040848}
+  m_Enabled: 1
+--- !u!1 &4009698184248824169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184248824175}
+  - component: {fileID: 4009698184248824174}
+  m_Layer: 0
+  m_Name: Main Top View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184248824175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184248824169}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698185808266735}
+  m_Father: {fileID: 4009698185963857389}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184248824174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184248824169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddc601cde7ecdf45b4750950bf77b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185963857378}
+  Screen: 1
+  CoordCamera: {fileID: 4009698185808266729}
+  Data:
+    IsUse: 0
+    Angle: 0
+    Scale: 1
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchRight: 500
+    TouchBottom: -300
+    TouchLeft: -500
+    TouchTop: 300
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    YLeft: 160
+    YRight: 160
+    CameraPositionX: 0
+    CameraPositionY: 0
+    GroupAngle: 10
+    GroupMaxCount: 0
+  Slope: 1
+  TouchCount: 0
+  InputIndex: 0
+--- !u!1 &4009698184286079041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184286079047}
+  - component: {fileID: 4009698184286079046}
+  m_Layer: 0
+  m_Name: Main Back View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184286079047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184286079041}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698185963857389}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184286079046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184286079041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c9044fd9da1444eacb602d2a617701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185963857378}
+  Screen: 1
+  Data:
+    IsUse: 0
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchDepthPoints:
+    - {x: 100, y: 300}
+    - {x: 500, y: 300}
+    - {x: 500, y: 50}
+    - {x: 100, y: 50}
+    MinDist: 150
+    MaxDist: 250
+    IsMaxDistUse: 1
+    MinArea: 60
+    MaxArea: 500
+    IsMaxAreaUse: 1
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    ErosionVal: 0
+    ExpansionVal: 0
+    IsErosionNextExpansion: 1
+    ScreenCheckRate: 60
+    ScreenCheckMaxDist: 500
+    IsTouchCenter: 1
+    IsOutlineAllTouch: 0
+    OutlineAllTouchInterval: 10
+    XCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    YCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  StartX: 100
+  EndX: 400
+  StartY: 50
+  EndY: 400
+  ViewPortDepthWidth: 0
+  ViewPortDepthHeight: 0
+  ContoursPointList: []
+  TouchScreenStartX: 0
+  TouchScreenStartY: 0
+  TouchScreenWidth: 0
+  TouchScreenHeight: 0
+  TestRawImage: {fileID: 0}
+--- !u!1 &4009698184292157844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184292157845}
+  m_Layer: 0
+  m_Name: "5. \uC544\uC2A4\uD2B8\uB77C \uD0D1\uBDF0"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698184292157845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184292157844}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184112886087}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4009698184313410319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184313410316}
+  - component: {fileID: 4009698184313410306}
+  - component: {fileID: 4009698184313410317}
+  m_Layer: 5
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698184313410316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184313410319}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184421326435}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &4009698184313410306
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184313410319}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 2
+  m_GateFitMode: 0
+  m_FOVAxisMode: 1
+  m_SensorSize: {x: 70, y: 60}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 61.927517
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -100
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &4009698184313410317
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184313410319}
+  m_Enabled: 1
+--- !u!1 &4009698184383091834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184383091835}
+  - component: {fileID: 4009698184383091832}
+  m_Layer: 0
+  m_Name: Right View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184383091835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184383091834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698185527536815}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184383091832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184383091834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a0db167b6f62048b1317e853203fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185527536812}
+  Screen: 2
+  Data:
+    IsUse: 0
+    MinDist: 20
+    Angle: 90
+    Scale: 1
+    GroupAngle: 10
+    GroupMaxCount: 0
+    IsXFlip: 1
+    IsYFlip: 0
+    TouchRight: 100
+    TouchBottom: -80
+    TouchLeft: -100
+    TouchTop: 80
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    SizeWidthRate: 1
+    SizeHeightRate: 1
+    IgnoreList: []
+  ScreenData:
+    TouchScreenStartX: 0
+    TouchScreenStartY: 0
+    TouchScreenWidth: 0
+    TouchScreenHeight: 0
+  TouchWidth: 0
+  TouchHeight: 0
+--- !u!1 &4009698184396824945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184396824950}
+  - component: {fileID: 4009698184396824951}
+  m_Layer: 0
+  m_Name: Right Top View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184396824950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184396824945}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 898.42224, y: 467.5455, z: -0.4029888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698183845418978}
+  m_Father: {fileID: 4009698184040808594}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184396824951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184396824945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddc601cde7ecdf45b4750950bf77b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698184040808595}
+  Screen: 2
+  CoordCamera: {fileID: 4009698183845418976}
+  Data:
+    IsUse: 0
+    Angle: 0
+    Scale: 1
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchRight: 500
+    TouchBottom: -300
+    TouchLeft: -500
+    TouchTop: 300
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    YLeft: 160
+    YRight: 160
+    CameraPositionX: 0
+    CameraPositionY: 0
+    GroupAngle: 10
+    GroupMaxCount: 0
+  Slope: 1
+  TouchCount: 0
+  InputIndex: 0
+--- !u!1 &4009698184421326434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184421326435}
+  - component: {fileID: 4009698184421326432}
+  m_Layer: 0
+  m_Name: Left Top View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184421326435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184421326434}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 898.42224, y: 467.5455, z: -0.4029888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698184313410316}
+  m_Father: {fileID: 4009698184040808594}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184421326432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184421326434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddc601cde7ecdf45b4750950bf77b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698184040808595}
+  Screen: 0
+  CoordCamera: {fileID: 4009698184313410306}
+  Data:
+    IsUse: 0
+    Angle: 0
+    Scale: 1
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchRight: 500
+    TouchBottom: -300
+    TouchLeft: -500
+    TouchTop: 300
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    YLeft: 160
+    YRight: 160
+    CameraPositionX: 0
+    CameraPositionY: 0
+    GroupAngle: 10
+    GroupMaxCount: 0
+  Slope: 1
+  TouchCount: 0
+  InputIndex: 0
+--- !u!1 &4009698184489623771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184489623769}
+  - component: {fileID: 4009698184489623768}
+  m_Layer: 0
+  m_Name: Left View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184489623769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184489623771}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698185527536815}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184489623768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184489623771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a0db167b6f62048b1317e853203fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185527536812}
+  Screen: 0
+  Data:
+    IsUse: 0
+    MinDist: 20
+    Angle: 90
+    Scale: 1
+    GroupAngle: 10
+    GroupMaxCount: 0
+    IsXFlip: 1
+    IsYFlip: 0
+    TouchRight: 100
+    TouchBottom: -80
+    TouchLeft: -100
+    TouchTop: 80
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    SizeWidthRate: 1
+    SizeHeightRate: 1
+    IgnoreList: []
+  ScreenData:
+    TouchScreenStartX: 0
+    TouchScreenStartY: 0
+    TouchScreenWidth: 0
+    TouchScreenHeight: 0
+  TouchWidth: 0
+  TouchHeight: 0
+--- !u!1 &4009698184529042260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184529042261}
+  - component: {fileID: 4009698184529042250}
+  m_Layer: 0
+  m_Name: Kinect Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698184529042261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184529042260}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 898.42224, y: 467.5455, z: -0.4029888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184112886087}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184529042250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184529042260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b531f336dfee5f438f94ed501caefc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorHeight: 1
+  sensorAngle: 0
+  autoHeightAngle: 0
+  computeUserMap: 1
+  computeColorMap: 1
+  computeInfraredMap: 0
+  displayUserMap: 0
+  displayColorMap: 0
+  displaySkeletonLines: 0
+  DisplayMapsWidthPercent: 20
+  useMultiSourceReader: 0
+  minUserDistance: 0.5
+  maxUserDistance: 0
+  maxLeftRightDistance: 0
+  maxTrackedUsers: 6
+  showTrackedUsersOnly: 0
+  userDetectionOrder: 0
+  ignoreInferredJoints: 0
+  ignoreZCoordinates: 0
+  lateUpdateAvatars: 0
+  skipRemoteAvatars: 0
+  smoothing: 0
+  useBoneOrientationConstraints: 0
+  estimateJointVelocities: 0
+  velocitySmoothing: 0
+  allowTurnArounds: 0
+  allowedHandRotations: 0
+  waitTimeBeforeRemove: 1
+  avatarControllers: []
+  playerCalibrationPose: 0
+  playerCommonGestures: 
+  minTimeBetweenGestures: 0.7
+  gestureManager: {fileID: 0}
+  gestureListeners: []
+  calibrationText: {fileID: 0}
+  gesturesDebugText: {fileID: 0}
+  kinectReaderRunning: 0
+--- !u!1 &4009698184617570802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184617570803}
+  - component: {fileID: 4009698184617570800}
+  m_Layer: 0
+  m_Name: Right Back View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184617570803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184617570802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698185963857389}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184617570800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184617570802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c9044fd9da1444eacb602d2a617701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185963857378}
+  Screen: 2
+  Data:
+    IsUse: 0
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchDepthPoints:
+    - {x: 100, y: 300}
+    - {x: 500, y: 300}
+    - {x: 500, y: 50}
+    - {x: 100, y: 50}
+    MinDist: 150
+    MaxDist: 250
+    IsMaxDistUse: 1
+    MinArea: 60
+    MaxArea: 500
+    IsMaxAreaUse: 1
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    ErosionVal: 0
+    ExpansionVal: 0
+    IsErosionNextExpansion: 1
+    ScreenCheckRate: 60
+    ScreenCheckMaxDist: 500
+    IsTouchCenter: 1
+    IsOutlineAllTouch: 0
+    OutlineAllTouchInterval: 10
+    XCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    YCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  StartX: 100
+  EndX: 400
+  StartY: 50
+  EndY: 400
+  ViewPortDepthWidth: 0
+  ViewPortDepthHeight: 0
+  ContoursPointList: []
+  TouchScreenStartX: 0
+  TouchScreenStartY: 0
+  TouchScreenWidth: 0
+  TouchScreenHeight: 0
+  TestRawImage: {fileID: 0}
+--- !u!1 &4009698184661254699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184661254696}
+  - component: {fileID: 4009698184661254697}
+  m_Layer: 0
+  m_Name: Right Back View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184661254696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184661254699}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 898.42224, y: 467.5455, z: -0.4029888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184040808594}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184661254697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184661254699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c9044fd9da1444eacb602d2a617701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698184040808595}
+  Screen: 2
+  Data:
+    IsUse: 0
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchDepthPoints:
+    - {x: 100, y: 300}
+    - {x: 500, y: 300}
+    - {x: 500, y: 50}
+    - {x: 100, y: 50}
+    MinDist: 150
+    MaxDist: 250
+    IsMaxDistUse: 1
+    MinArea: 60
+    MaxArea: 500
+    IsMaxAreaUse: 1
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    ErosionVal: 0
+    ExpansionVal: 0
+    IsErosionNextExpansion: 1
+    ScreenCheckRate: 60
+    ScreenCheckMaxDist: 500
+    IsTouchCenter: 1
+    IsOutlineAllTouch: 0
+    OutlineAllTouchInterval: 10
+    XCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    YCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  StartX: 100
+  EndX: 400
+  StartY: 50
+  EndY: 400
+  ViewPortDepthWidth: 0
+  ViewPortDepthHeight: 0
+  ContoursPointList: []
+  TouchScreenStartX: 0
+  TouchScreenStartY: 0
+  TouchScreenWidth: 0
+  TouchScreenHeight: 0
+  TestRawImage: {fileID: 0}
+--- !u!1 &4009698184814321215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184814321212}
+  - component: {fileID: 4009698184814321213}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184814321212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184814321215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184040808594}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184814321213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184814321215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b531f336dfee5f438f94ed501caefc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorHeight: 1
+  sensorAngle: 0
+  autoHeightAngle: 0
+  computeUserMap: 1
+  computeColorMap: 1
+  computeInfraredMap: 0
+  displayUserMap: 0
+  displayColorMap: 0
+  displaySkeletonLines: 0
+  DisplayMapsWidthPercent: 20
+  useMultiSourceReader: 0
+  minUserDistance: 0.5
+  maxUserDistance: 0
+  maxLeftRightDistance: 0
+  maxTrackedUsers: 6
+  showTrackedUsersOnly: 0
+  userDetectionOrder: 0
+  ignoreInferredJoints: 0
+  ignoreZCoordinates: 0
+  lateUpdateAvatars: 0
+  skipRemoteAvatars: 0
+  smoothing: 0
+  useBoneOrientationConstraints: 0
+  estimateJointVelocities: 0
+  velocitySmoothing: 2
+  allowTurnArounds: 0
+  allowedHandRotations: 1
+  waitTimeBeforeRemove: 1
+  avatarControllers: []
+  playerCalibrationPose: 0
+  playerCommonGestures: 
+  minTimeBetweenGestures: 0.7
+  gestureManager: {fileID: 0}
+  gestureListeners: []
+  calibrationText: {fileID: 0}
+  gesturesDebugText: {fileID: 0}
+  kinectReaderRunning: 0
+--- !u!1 &4009698184838876688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184838876694}
+  - component: {fileID: 4009698184838876689}
+  m_Layer: 0
+  m_Name: Left Back View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184838876694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184838876688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698185963857389}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184838876689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184838876688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c9044fd9da1444eacb602d2a617701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185963857378}
+  Screen: 0
+  Data:
+    IsUse: 0
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchDepthPoints:
+    - {x: 100, y: 300}
+    - {x: 500, y: 300}
+    - {x: 500, y: 50}
+    - {x: 100, y: 50}
+    MinDist: 150
+    MaxDist: 250
+    IsMaxDistUse: 1
+    MinArea: 60
+    MaxArea: 500
+    IsMaxAreaUse: 1
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    ErosionVal: 0
+    ExpansionVal: 0
+    IsErosionNextExpansion: 1
+    ScreenCheckRate: 60
+    ScreenCheckMaxDist: 500
+    IsTouchCenter: 1
+    IsOutlineAllTouch: 0
+    OutlineAllTouchInterval: 10
+    XCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    YCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  StartX: 100
+  EndX: 400
+  StartY: 50
+  EndY: 400
+  ViewPortDepthWidth: 0
+  ViewPortDepthHeight: 0
+  ContoursPointList: []
+  TouchScreenStartX: 0
+  TouchScreenStartY: 0
+  TouchScreenWidth: 0
+  TouchScreenHeight: 0
+  TestRawImage: {fileID: 0}
+--- !u!1 &4009698184869689937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184869689943}
+  - component: {fileID: 4009698184869689942}
+  m_Layer: 0
+  m_Name: Left Top View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698184869689943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184869689937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698184939434050}
+  m_Father: {fileID: 4009698185963857389}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698184869689942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184869689937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddc601cde7ecdf45b4750950bf77b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185963857378}
+  Screen: 0
+  CoordCamera: {fileID: 4009698184939434049}
+  Data:
+    IsUse: 0
+    Angle: 0
+    Scale: 1
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchRight: 500
+    TouchBottom: -300
+    TouchLeft: -500
+    TouchTop: 300
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    YLeft: 160
+    YRight: 160
+    CameraPositionX: 0
+    CameraPositionY: 0
+    GroupAngle: 10
+    GroupMaxCount: 0
+  Slope: 1
+  TouchCount: 0
+  InputIndex: 0
+--- !u!1 &4009698184939434061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184939434050}
+  - component: {fileID: 4009698184939434049}
+  - component: {fileID: 4009698184939434048}
+  m_Layer: 5
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698184939434050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184939434061}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184869689943}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &4009698184939434049
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184939434061}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 2
+  m_GateFitMode: 0
+  m_FOVAxisMode: 1
+  m_SensorSize: {x: 60, y: 49.5}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 52.67082
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -100
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &4009698184939434048
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184939434061}
+  m_Enabled: 1
+--- !u!1 &4009698184960693379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698184960693377}
+  m_Layer: 0
+  m_Name: "4. \uD0A4\uB125\uD2B8 \uD0D1\uBDF0"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698184960693377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698184960693379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698185443871768}
+  m_Father: {fileID: 4009698184112886087}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4009698185004965000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185004965001}
+  - component: {fileID: 4009698185004965006}
+  m_Layer: 0
+  m_Name: Left View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698185004965001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185004965000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698185881720815}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698185004965006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185004965000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a0db167b6f62048b1317e853203fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185881720814}
+  Screen: 0
+  Data:
+    IsUse: 0
+    MinDist: 20
+    Angle: 90
+    Scale: 1
+    GroupAngle: 10
+    GroupMaxCount: 0
+    IsXFlip: 1
+    IsYFlip: 0
+    TouchRight: 100
+    TouchBottom: -80
+    TouchLeft: -100
+    TouchTop: 80
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    SizeWidthRate: 1
+    SizeHeightRate: 1
+    IgnoreList: []
+  ScreenData:
+    TouchScreenStartX: 0
+    TouchScreenStartY: 0
+    TouchScreenWidth: 0
+    TouchScreenHeight: 0
+  TouchWidth: 0
+  TouchHeight: 0
+--- !u!1 &4009698185035265101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185035265090}
+  - component: {fileID: 4009698185035265091}
+  m_Layer: 0
+  m_Name: Main Back View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698185035265090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185035265101}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 898.42224, y: 467.5455, z: -0.4029888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184040808594}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698185035265091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185035265101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c9044fd9da1444eacb602d2a617701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698184040808595}
+  Screen: 1
+  Data:
+    IsUse: 0
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchDepthPoints:
+    - {x: 100, y: 300}
+    - {x: 500, y: 300}
+    - {x: 500, y: 50}
+    - {x: 100, y: 50}
+    MinDist: 150
+    MaxDist: 250
+    IsMaxDistUse: 1
+    MinArea: 60
+    MaxArea: 500
+    IsMaxAreaUse: 1
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    ErosionVal: 0
+    ExpansionVal: 0
+    IsErosionNextExpansion: 1
+    ScreenCheckRate: 60
+    ScreenCheckMaxDist: 500
+    IsTouchCenter: 1
+    IsOutlineAllTouch: 0
+    OutlineAllTouchInterval: 10
+    XCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    YCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  StartX: 100
+  EndX: 400
+  StartY: 50
+  EndY: 400
+  ViewPortDepthWidth: 0
+  ViewPortDepthHeight: 0
+  ContoursPointList: []
+  TouchScreenStartX: 0
+  TouchScreenStartY: 0
+  TouchScreenWidth: 0
+  TouchScreenHeight: 0
+  TestRawImage: {fileID: 0}
+--- !u!1 &4009698185173756261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185173757594}
+  - component: {fileID: 4009698185173757595}
+  m_Layer: 0
+  m_Name: Left Back View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698185173757594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185173756261}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 898.42224, y: 467.5455, z: -0.4029888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184040808594}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698185173757595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185173756261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c9044fd9da1444eacb602d2a617701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698184040808595}
+  Screen: 0
+  Data:
+    IsUse: 0
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchDepthPoints:
+    - {x: 100, y: 300}
+    - {x: 500, y: 300}
+    - {x: 500, y: 50}
+    - {x: 100, y: 50}
+    MinDist: 150
+    MaxDist: 250
+    IsMaxDistUse: 1
+    MinArea: 60
+    MaxArea: 500
+    IsMaxAreaUse: 1
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    ErosionVal: 0
+    ExpansionVal: 0
+    IsErosionNextExpansion: 1
+    ScreenCheckRate: 60
+    ScreenCheckMaxDist: 500
+    IsTouchCenter: 1
+    IsOutlineAllTouch: 0
+    OutlineAllTouchInterval: 10
+    XCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    YCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  StartX: 100
+  EndX: 400
+  StartY: 50
+  EndY: 400
+  ViewPortDepthWidth: 0
+  ViewPortDepthHeight: 0
+  ContoursPointList: []
+  TouchScreenStartX: 0
+  TouchScreenStartY: 0
+  TouchScreenWidth: 0
+  TouchScreenHeight: 0
+  TestRawImage: {fileID: 0}
+--- !u!1 &4009698185350760529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185350760535}
+  - component: {fileID: 4009698185350760534}
+  m_Layer: 0
+  m_Name: Main View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698185350760535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185350760529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698185527536815}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698185350760534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185350760529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a0db167b6f62048b1317e853203fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185527536812}
+  Screen: 1
+  Data:
+    IsUse: 0
+    MinDist: 20
+    Angle: 90
+    Scale: 1
+    GroupAngle: 10
+    GroupMaxCount: 0
+    IsXFlip: 1
+    IsYFlip: 0
+    TouchRight: 100
+    TouchBottom: -80
+    TouchLeft: -100
+    TouchTop: 80
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    SizeWidthRate: 1
+    SizeHeightRate: 1
+    IgnoreList: []
+  ScreenData:
+    TouchScreenStartX: 0
+    TouchScreenStartY: 0
+    TouchScreenWidth: 0
+    TouchScreenHeight: 0
+  TouchWidth: 0
+  TouchHeight: 0
+--- !u!1 &4009698185397998136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185397998142}
+  - component: {fileID: 4009698185397998137}
+  m_Layer: 0
+  m_Name: Right View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698185397998142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185397998136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698185881720815}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698185397998137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185397998136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a0db167b6f62048b1317e853203fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185881720814}
+  Screen: 2
+  Data:
+    IsUse: 0
+    MinDist: 20
+    Angle: 90
+    Scale: 1
+    GroupAngle: 10
+    GroupMaxCount: 0
+    IsXFlip: 1
+    IsYFlip: 0
+    TouchRight: 100
+    TouchBottom: -80
+    TouchLeft: -100
+    TouchTop: 80
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    SizeWidthRate: 1
+    SizeHeightRate: 1
+    IgnoreList: []
+  ScreenData:
+    TouchScreenStartX: 0
+    TouchScreenStartY: 0
+    TouchScreenWidth: 0
+    TouchScreenHeight: 0
+  TouchWidth: 0
+  TouchHeight: 0
+--- !u!1 &4009698185443871972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185443871768}
+  - component: {fileID: 4009698185443871973}
+  - component: {fileID: 4009698185443871771}
+  m_Layer: 5
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698185443871768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185443871972}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1858.4222, y: 1007.54553, z: -0.4029888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184960693377}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &4009698185443871973
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185443871972}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 70
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -100
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 8400000, guid: fa6be2b1cd326ad4191151d993514009, type: 2}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &4009698185443871771
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185443871972}
+  m_Enabled: 1
+--- !u!1 &4009698185527536814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185527536815}
+  - component: {fileID: 4009698185527536812}
+  m_Layer: 0
+  m_Name: 3. Lidar UST-10LX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698185527536815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185527536814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698184489623769}
+  - {fileID: 4009698185350760535}
+  - {fileID: 4009698184383091835}
+  m_Father: {fileID: 4009698184112886087}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698185527536812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185527536814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51aabcc207b7a434b890cb3fc8955488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SensorName: UST-10lx
+  ConnectFailMsg: 
+  SensorId:
+    Model: 0
+    Port: 
+    PortNumber: 0
+  IsConnect: 0
+  LeftView: {fileID: 4009698184489623768}
+  MainView: {fileID: 4009698185350760534}
+  RightView: {fileID: 4009698184383091832}
+  Data:
+    Addr: 
+    Memo: 
+    BasicColor: {r: 0, g: 1, b: 1, a: 1}
+    LeftData:
+      IsUse: 0
+      MinDist: 20
+      Angle: 90
+      Scale: 1
+      GroupAngle: 10
+      GroupMaxCount: 0
+      IsXFlip: 1
+      IsYFlip: 0
+      TouchRight: 100
+      TouchBottom: -80
+      TouchLeft: -100
+      TouchTop: 80
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      SizeWidthRate: 1
+      SizeHeightRate: 1
+      IgnoreList: []
+    MainData:
+      IsUse: 0
+      MinDist: 20
+      Angle: 90
+      Scale: 1
+      GroupAngle: 10
+      GroupMaxCount: 0
+      IsXFlip: 1
+      IsYFlip: 0
+      TouchRight: 100
+      TouchBottom: -80
+      TouchLeft: -100
+      TouchTop: 80
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      SizeWidthRate: 1
+      SizeHeightRate: 1
+      IgnoreList: []
+    RightData:
+      IsUse: 0
+      MinDist: 20
+      Angle: 90
+      Scale: 1
+      GroupAngle: 10
+      GroupMaxCount: 0
+      IsXFlip: 1
+      IsYFlip: 0
+      TouchRight: 100
+      TouchBottom: -80
+      TouchLeft: -100
+      TouchTop: 80
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      SizeWidthRate: 1
+      SizeHeightRate: 1
+      IgnoreList: []
+    SerialNo: 
+  IsShowPreview: 0
+  Detail: 5
+  Size: 1
+  SensorCheckCurrentTime: 0
+  AngleResolution: 0.25
+  Model: 
+  StartStep: 0
+  EndStep: 1080
+--- !u!1 &4009698185626348466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185626348467}
+  m_Layer: 0
+  m_Name: "0. \uD130\uCE58\uD328\uB110"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698185626348467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185626348466}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 898.42224, y: 467.5455, z: -0.4029888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184112886087}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4009698185694320929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185694320935}
+  - component: {fileID: 4009698185694320934}
+  m_Layer: 0
+  m_Name: "\uB77C\uC774\uB354 G4"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698185694320935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185694320929}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184112886087}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698185694320934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185694320929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c757d88bfe6de3249b96a6c6933dea26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4009698185808266728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185808266735}
+  - component: {fileID: 4009698185808266729}
+  - component: {fileID: 4009698185808266734}
+  m_Layer: 5
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698185808266735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185808266728}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4009698184248824175}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &4009698185808266729
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185808266728}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 2
+  m_GateFitMode: 0
+  m_FOVAxisMode: 1
+  m_SensorSize: {x: 60, y: 49.5}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 52.67082
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -100
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &4009698185808266734
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185808266728}
+  m_Enabled: 1
+--- !u!1 &4009698185881720809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185881720815}
+  - component: {fileID: 4009698185881720814}
+  m_Layer: 0
+  m_Name: 4. G4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698185881720815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185881720809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698185004965001}
+  - {fileID: 4009698184061829501}
+  - {fileID: 4009698185397998142}
+  m_Father: {fileID: 4009698184112886087}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698185881720814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185881720809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1634186b8731dc4c9b69cbdbe273998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SensorName: G4
+  ConnectFailMsg: 
+  SensorId:
+    Model: 0
+    Port: 
+    PortNumber: 0
+  IsConnect: 0
+  LeftView: {fileID: 4009698185004965006}
+  MainView: {fileID: 4009698184061829490}
+  RightView: {fileID: 4009698185397998137}
+  Data:
+    Addr: 
+    Memo: 
+    BasicColor: {r: 0, g: 1, b: 1, a: 1}
+    LeftData:
+      IsUse: 0
+      MinDist: 20
+      Angle: 90
+      Scale: 1
+      GroupAngle: 10
+      GroupMaxCount: 0
+      IsXFlip: 1
+      IsYFlip: 0
+      TouchRight: 100
+      TouchBottom: -80
+      TouchLeft: -100
+      TouchTop: 80
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      SizeWidthRate: 1
+      SizeHeightRate: 1
+      IgnoreList: []
+    MainData:
+      IsUse: 0
+      MinDist: 20
+      Angle: 90
+      Scale: 1
+      GroupAngle: 10
+      GroupMaxCount: 0
+      IsXFlip: 1
+      IsYFlip: 0
+      TouchRight: 100
+      TouchBottom: -80
+      TouchLeft: -100
+      TouchTop: 80
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      SizeWidthRate: 1
+      SizeHeightRate: 1
+      IgnoreList: []
+    RightData:
+      IsUse: 0
+      MinDist: 20
+      Angle: 90
+      Scale: 1
+      GroupAngle: 10
+      GroupMaxCount: 0
+      IsXFlip: 1
+      IsYFlip: 0
+      TouchRight: 100
+      TouchBottom: -80
+      TouchLeft: -100
+      TouchTop: 80
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      SizeWidthRate: 1
+      SizeHeightRate: 1
+      IgnoreList: []
+    SerialNo: 
+  IsShowPreview: 0
+  Detail: 5
+  Size: 1
+  IsG4: 0
+  PortName: 
+--- !u!1 &4009698185963857388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185963857389}
+  - component: {fileID: 4009698185963857378}
+  m_Layer: 0
+  m_Name: "2. \uC544\uC2A4\uD2B8\uB77C"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4009698185963857389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185963857388}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 898.42224, y: 467.5455, z: -0.4029888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698184838876694}
+  - {fileID: 4009698184286079047}
+  - {fileID: 4009698184617570803}
+  - {fileID: 4009698184869689943}
+  - {fileID: 4009698184248824175}
+  - {fileID: 4009698185977634200}
+  m_Father: {fileID: 4009698184112886087}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698185963857378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185963857388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28d4774a2099e14ba4d510e9a10cc2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SensorName: Astra
+  ConnectFailMsg: "<color=#FF0000FF>\uC544\uC2A4\uD2B8\uB77C</color> \uC13C\uC11C\uAC00
+    \uC5F0\uACB0\uB418\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4.\nPC\uC640 \uC81C\uB300\uB85C
+    \uC5F0\uACB0\uB418\uC5B4 \uC788\uB294\uC9C0 \uD655\uC778 \uD6C4,\n\uC5F0\uACB0\uC774
+    \uC81C\uB300\uB85C \uB418\uC5B4\uC788\uB294 \uC0C1\uD0DC\uBA74\nUSB \uC120\uC744
+    \uBE8F\uB2E4\uAC00 \uB2E4\uC2DC \uAF42\uC544\uC8FC\uC138\uC694."
+  SensorId:
+    Model: 0
+    Port: 
+    PortNumber: 0
+  IsConnect: 0
+  LeftBackView: {fileID: 4009698184838876689}
+  MainBackView: {fileID: 4009698184286079046}
+  RightBackView: {fileID: 4009698184617570800}
+  LeftTopView: {fileID: 4009698184869689942}
+  MainTopView: {fileID: 4009698184248824174}
+  RightTopView: {fileID: 4009698185977634201}
+  DepthWidth: 640
+  DepthHeight: 480
+  SettingColorImageScale: {x: -1, y: -1, z: 1}
+  SettingDepthImageScale: {x: 1, y: 1, z: 1}
+  Data:
+    Memo: 
+    ViewColor: {r: 1, g: 1, b: 1, a: 1}
+    ColorCameraName: 
+    LeftBackview:
+      IsUse: 0
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchDepthPoints:
+      - {x: 100, y: 300}
+      - {x: 500, y: 300}
+      - {x: 500, y: 50}
+      - {x: 100, y: 50}
+      MinDist: 150
+      MaxDist: 250
+      IsMaxDistUse: 1
+      MinArea: 60
+      MaxArea: 500
+      IsMaxAreaUse: 1
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      ErosionVal: 0
+      ExpansionVal: 0
+      IsErosionNextExpansion: 1
+      ScreenCheckRate: 60
+      ScreenCheckMaxDist: 500
+      IsTouchCenter: 1
+      IsOutlineAllTouch: 0
+      OutlineAllTouchInterval: 10
+      XCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    MainBackview:
+      IsUse: 0
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchDepthPoints:
+      - {x: 100, y: 300}
+      - {x: 500, y: 300}
+      - {x: 500, y: 50}
+      - {x: 100, y: 50}
+      MinDist: 150
+      MaxDist: 250
+      IsMaxDistUse: 1
+      MinArea: 60
+      MaxArea: 500
+      IsMaxAreaUse: 1
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      ErosionVal: 0
+      ExpansionVal: 0
+      IsErosionNextExpansion: 1
+      ScreenCheckRate: 60
+      ScreenCheckMaxDist: 500
+      IsTouchCenter: 1
+      IsOutlineAllTouch: 0
+      OutlineAllTouchInterval: 10
+      XCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    RightBackview:
+      IsUse: 0
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchDepthPoints:
+      - {x: 100, y: 300}
+      - {x: 500, y: 300}
+      - {x: 500, y: 50}
+      - {x: 100, y: 50}
+      MinDist: 150
+      MaxDist: 250
+      IsMaxDistUse: 1
+      MinArea: 60
+      MaxArea: 500
+      IsMaxAreaUse: 1
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      ErosionVal: 0
+      ExpansionVal: 0
+      IsErosionNextExpansion: 1
+      ScreenCheckRate: 60
+      ScreenCheckMaxDist: 500
+      IsTouchCenter: 1
+      IsOutlineAllTouch: 0
+      OutlineAllTouchInterval: 10
+      XCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    LeftTopview:
+      IsUse: 0
+      Angle: 0
+      Scale: 1
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchRight: 500
+      TouchBottom: -300
+      TouchLeft: -500
+      TouchTop: 300
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      YLeft: 160
+      YRight: 160
+      CameraPositionX: 0
+      CameraPositionY: 0
+      GroupAngle: 10
+      GroupMaxCount: 0
+    MainTopview:
+      IsUse: 0
+      Angle: 0
+      Scale: 1
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchRight: 500
+      TouchBottom: -300
+      TouchLeft: -500
+      TouchTop: 300
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      YLeft: 160
+      YRight: 160
+      CameraPositionX: 0
+      CameraPositionY: 0
+      GroupAngle: 10
+      GroupMaxCount: 0
+    RightTopview:
+      IsUse: 0
+      Angle: 0
+      Scale: 1
+      IsXFlip: 0
+      IsYFlip: 0
+      TouchRight: 500
+      TouchBottom: -300
+      TouchLeft: -500
+      TouchTop: 300
+      ScreenTop: 0
+      ScreenRight: 0
+      ScreenBottom: 0
+      ScreenLeft: 0
+      YLeft: 160
+      YRight: 160
+      CameraPositionX: 0
+      CameraPositionY: 0
+      GroupAngle: 10
+      GroupMaxCount: 0
+--- !u!1 &4009698185977634203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009698185977634200}
+  - component: {fileID: 4009698185977634201}
+  m_Layer: 0
+  m_Name: 'Right Top View '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009698185977634200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185977634203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4009698184187040849}
+  m_Father: {fileID: 4009698185963857389}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4009698185977634201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009698185977634203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddc601cde7ecdf45b4750950bf77b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensor: {fileID: 4009698185963857378}
+  Screen: 2
+  CoordCamera: {fileID: 4009698184187040855}
+  Data:
+    IsUse: 0
+    Angle: 0
+    Scale: 1
+    IsXFlip: 0
+    IsYFlip: 0
+    TouchRight: 500
+    TouchBottom: -300
+    TouchLeft: -500
+    TouchTop: 300
+    ScreenTop: 0
+    ScreenRight: 0
+    ScreenBottom: 0
+    ScreenLeft: 0
+    YLeft: 160
+    YRight: 160
+    CameraPositionX: 0
+    CameraPositionY: 0
+    GroupAngle: 10
+    GroupMaxCount: 0
+  Slope: 1
+  TouchCount: 0
+  InputIndex: 0

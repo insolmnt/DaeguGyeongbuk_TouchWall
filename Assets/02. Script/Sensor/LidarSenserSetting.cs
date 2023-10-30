@@ -627,7 +627,7 @@ public class LidarSenserSetting : MonoBehaviour {
     {
         RectTransform rect = GetComponent<RectTransform>();
         float width = rect.rect.width;
-        float height = 800;
+        float height = rect.rect.height;
 
         //Debug.Log("플레이화면 : " + display.systemWidth + ", " + display.systemHeight + " / " + width + ", " + height);
         CurrentView.ScreenData.TouchScreenWidth = (width * (1f - CurrentView.Data.ScreenRight - CurrentView.Data.ScreenLeft));

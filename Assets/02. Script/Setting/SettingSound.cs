@@ -8,9 +8,9 @@ namespace InsolDefaultProject
     {
         public SoundManager Manager;
 
-        public SliderCtr BgSlider;
+        public SliderCtr BgWaitSlider;
+        public SliderCtr BgPlaySlider;
         public SliderCtr EffectSlider;
-        public Text BgmIndexText;
 
 
         public override void Init()
@@ -34,7 +34,8 @@ namespace InsolDefaultProject
             IsShow = false;
             if (isShow)
             {
-                BgSlider.Val = Manager.Data.BgVolume;
+                BgWaitSlider.Val = Manager.Data.BgWaitVolume;
+                BgPlaySlider.Val = Manager.Data.BgPlayVolume;
                 EffectSlider.Val = Manager.Data.EffectVolume;
                 IsShow = true;
             }
@@ -45,7 +46,7 @@ namespace InsolDefaultProject
 
         public void CheckEffectSoundButtonClick()
         {
-            SoundManager.Instance.PlayTouchSound();
+            SoundManager.Instance.Play(ContentsManager.Instance.TouchSound);
         }
 
 
@@ -56,10 +57,20 @@ namespace InsolDefaultProject
                 return;
             }
             
-            Manager.Data.BgVolume = BgSlider.Val;
+            Manager.Data.BgWaitVolume = BgWaitSlider.Val;
+            Manager.SetData(true);
+        }
+        public void OnBgPlayChange()
+        {
+            if (IsShow == false)
+            {
+                return;
+            }
+
+            Manager.Data.BgPlayVolume = BgPlaySlider.Val;
             Manager.Data.EffectVolume = EffectSlider.Val;
 
-            Manager.SetData();
+            Manager.SetData(false);
         }
 
     }

@@ -58,8 +58,8 @@ public class Monitor : MonoBehaviour
         }
     }
     public Display CurrentDisplay;
-    public int ScreenWidth = 1280;
-    public int ScreenHeight = 800;
+    public int ScreenWidth = 1500;
+    public int ScreenHeight = 1500;
     public bool IsShowKeystoneLine = false;
 
 
@@ -89,6 +89,7 @@ public class Monitor : MonoBehaviour
 
     public void SensorInputColor(float x, float y, Color color)
     {
+        //Debug.Log("" + x.ToString("F1") + ", " + y.ToString("F1"));
         if (SensorManager.Instance.IsShowDebugMode)
         {
             var dot = GetIdleDotImage();
@@ -105,7 +106,7 @@ public class Monitor : MonoBehaviour
 
         Ray ray = RawCamera.ScreenPointToRay(new Vector3(x, y));
 
-        Debug.DrawLine(ray.origin, ray.origin + ray.direction * 2000, Color.red, 1f);
+        Debug.DrawLine(ray.origin, ray.origin + ray.direction * 2000, Color.red, 5f);
 
         //RaycastHit hit;
         var hitList = Physics.RaycastAll(ray, 2000);
@@ -118,7 +119,6 @@ public class Monitor : MonoBehaviour
                 {
                     continue;
                 }
-
                 //var result = touch.OnTouch(hit.point);
                 var result = touch.OnTouch(hit.point);
             }
@@ -309,6 +309,7 @@ public class Monitor : MonoBehaviour
             0);
 
 
+
         if (Data.isOnltyStraight)
         {
             image.topBezierHandleA = (Vector2)top * data.StraightDataList[0];
@@ -338,6 +339,25 @@ public class Monitor : MonoBehaviour
             image.bottomBezierHandleB = -(Vector2)bottom + data.BezierList[5];
 
         }
+
+        UIOutRawIamge.cornerOffsetTR = image.cornerOffsetTR;
+        UIOutRawIamge.cornerOffsetBR = image.cornerOffsetBR;
+        UIOutRawIamge.cornerOffsetBL = image.cornerOffsetBL;
+        UIOutRawIamge.cornerOffsetTL = image.cornerOffsetTL;
+
+        UIOutRawIamge.topBezierHandleA = image.topBezierHandleA;
+        UIOutRawIamge.topBezierHandleB = image.topBezierHandleB;
+
+        UIOutRawIamge.leftBezierHandleA = image.leftBezierHandleA;
+        UIOutRawIamge.leftBezierHandleB = image.leftBezierHandleB;
+
+        UIOutRawIamge.rightBezierHandleA = image.rightBezierHandleA;
+        UIOutRawIamge.rightBezierHandleB = image.rightBezierHandleB;
+
+        UIOutRawIamge.bottomBezierHandleA = image.bottomBezierHandleA;
+        UIOutRawIamge.bottomBezierHandleB = image.bottomBezierHandleB;
+
+
 
         if (isDouble)
         {

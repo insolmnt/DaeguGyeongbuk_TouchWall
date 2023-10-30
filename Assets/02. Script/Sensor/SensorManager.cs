@@ -159,10 +159,14 @@ public class SensorManager : MonoBehaviour
                             StartSensorConnectTextList[i].StateText.color = Color.yellow;
                             StartSensorConnectTextList[i].StateText.text = "센서 연결에 실패했습니다. 재시도 중입니다.";
                         }
-                        else
+                        else if(CheckingCount < 6)
                         {
                             StartSensorConnectTextList[i].StateText.color = new Color(1, 0.5f, 0, 1f);
                             StartSensorConnectTextList[i].StateText.text = "센서 연결에 실패했습니다. USB를 뺏다 꽂아주세요.";
+                        }
+                        else
+                        {
+                            OnStartSensorCheckCloseButtonClick();
                         }
                         check = true;
                     }

@@ -11,16 +11,22 @@ public class SettingContents : Setting
 
     public Image BgColor;
 
-    public Image AirplaneIconColor;
+    //public Image AirplaneIconColor;
     public Image AirplaneLineColor;
+    public Image AirplaneColor;
 
-    public Image RailroadIconColor;
+    //public Image RailroadIconColor;
     public Image ArrowLineColor;
     public Image RailroadLineColor;
+    public Image TrainColor;
 
 
     public Image DaeguCircleImageType2Color;
     public Image MegaCircleImageType2Color;
+
+    public NumberInputField ContentsWaitTime;
+    public NumberInputField EndWaitTime;
+
 
     public override void Init()
     {
@@ -49,10 +55,10 @@ public class SettingContents : Setting
         }
         if (index == 1)
         {
-            ColorSetting.Instance.ShowSetting("", Manager.Data.AirplaneIconColor, true, (color) =>
+            ColorSetting.Instance.ShowSetting("", Manager.Data.AirplaneColor, true, (color) =>
             {
-                Manager.Data.AirplaneIconColor = color;
-                AirplaneIconColor.color = Manager.Data.AirplaneIconColor;
+                Manager.Data.AirplaneColor = color;
+                AirplaneColor.color = Manager.Data.AirplaneColor;
                 Manager.SetData();
             });
         }
@@ -67,10 +73,10 @@ public class SettingContents : Setting
         }
         if (index == 3)
         {
-            ColorSetting.Instance.ShowSetting("", Manager.Data.RailroadIconColor, true, (color) =>
+            ColorSetting.Instance.ShowSetting("", Manager.Data.TrainColor, true, (color) =>
             {
-                Manager.Data.RailroadIconColor = color;
-                RailroadIconColor.color = Manager.Data.RailroadIconColor;
+                Manager.Data.TrainColor = color;
+                TrainColor.color = Manager.Data.TrainColor;
                 Manager.SetData();
             });
         }
@@ -112,22 +118,41 @@ public class SettingContents : Setting
         }
     }
 
+    public void OnInputChange()
+    {
+        if(mIsLoad == false)
+        {
+            return;
+        }
+
+
+        Manager.Data.MegaEndWaitTime = EndWaitTime.Val;
+        Manager.Data.TouchEndWaitTime = ContentsWaitTime.Val;
+    }
+
+    private bool mIsLoad = false;
     public override void Show(bool isShow)
     {
         if (isShow)
         {
+            mIsLoad = false;
+
             BgColor.color = Manager.Data.BgColor;
 
-            AirplaneIconColor.color = Manager.Data.AirplaneIconColor;
+            AirplaneColor.color = Manager.Data.AirplaneColor;
             AirplaneLineColor.color = Manager.Data.AirplaneLineColor;
 
-            RailroadIconColor.color = Manager.Data.RailroadIconColor;
+            TrainColor.color = Manager.Data.TrainColor;
             ArrowLineColor.color = Manager.Data.ArrowLineColor;
             RailroadLineColor.color = Manager.Data.RailroadLineColor;
 
 
             DaeguCircleImageType2Color.color = Manager.Data.DaeguCircleImageColor;
             MegaCircleImageType2Color.color = Manager.Data.MegaCircleImageColor;
+
+            EndWaitTime.Val = Manager.Data.MegaEndWaitTime;
+            ContentsWaitTime.Val = Manager.Data.TouchEndWaitTime;
+            mIsLoad = true;
         }
     }
 }

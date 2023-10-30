@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class TouchInput : MonoBehaviour {
     public string Tag;
     public float TouchDelay = 0f;
-    public UnityEvent<Vector3> OnTouchEvent;
+    public UnityEvent OnTouchEvent;
 
     private float LastTouchTime = 0;
 
@@ -21,7 +21,7 @@ public class TouchInput : MonoBehaviour {
 
         if(OnTouchEvent != null)
         {
-            OnTouchEvent.Invoke(v3);
+            OnTouchEvent.Invoke();
         }
 
         return true;

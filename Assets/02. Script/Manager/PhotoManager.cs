@@ -17,7 +17,7 @@ public class PhotoManager : MonoBehaviour
     public CanvasGroup AirplaneGroup;
 
     [Header("철도")]
-    public CanvasGroup RailroadGroup;
+    public CanvasGroup TrainGroup;
 
     [Header("Data")]
     public PhotoData Data;
@@ -28,9 +28,61 @@ public class PhotoManager : MonoBehaviour
         Instance = this;
     }
 
+    public void ShowWait()
+    {
+        AirplaneGroup.DOKill();
+        TrainGroup.DOKill();
+        WaitGroup.DOKill();
+
+
+        AirplaneGroup.DOFade(0, Data.FadeTime);
+        TrainGroup.DOFade(0, Data.FadeTime);
+        WaitGroup.DOFade(1, Data.FadeTime);
+    }
+    public void ShowAirplane(bool isShow)
+    {
+        AirplaneGroup.DOKill();
+        TrainGroup.DOKill();
+        WaitGroup.DOKill();
+
+        if (isShow)
+        {
+            AirplaneGroup.DOFade(1, Data.FadeTime);
+            TrainGroup.DOFade(0, Data.FadeTime);
+            WaitGroup.DOFade(0, Data.FadeTime);
+        }
+        else
+        {
+            AirplaneGroup.DOFade(0, Data.FadeTime);
+            WaitGroup.DOFade(1, Data.FadeTime);
+        }
+    }
+    public void ShowTrain(bool isShow)
+    {
+        AirplaneGroup.DOKill();
+        TrainGroup.DOKill();
+        WaitGroup.DOKill();
+
+        if (isShow)
+        {
+            TrainGroup.DOFade(1, Data.FadeTime);
+            AirplaneGroup.DOFade(0, Data.FadeTime);
+            WaitGroup.DOFade(0, Data.FadeTime);
+        }
+        else
+        {
+            TrainGroup.DOFade(0, Data.FadeTime);
+            WaitGroup.DOFade(1, Data.FadeTime);
+        }
+    }
+
 
     private void Start()
     {
+        AirplaneGroup.alpha = 0;
+        TrainGroup.alpha = 0;
+
+
         Load();
         StartCoroutine(ShowWaitPhoto());
     }

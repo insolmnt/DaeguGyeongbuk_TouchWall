@@ -24,6 +24,7 @@ public class AirplaneLine : MonoBehaviour
     public CanvasGroup Group;
 
     [Header("Data")]
+    public bool IsShow = false;
     [Range(0, 1f)]
     public float AirplaneTVal = 0;
     public float BeforeAirplaneTVal = 0;
@@ -54,8 +55,9 @@ public class AirplaneLine : MonoBehaviour
             AirportTextImage.color = new Color(AirportTextImage.color.r, AirportTextImage.color.g, AirportTextImage.color.b, 0);
         }
     }
-    public void SetColor(Color lineColor)
+    public void SetColor(Color lineColor, Color airplaneColor)
     {
+        AirplaneImage.color = airplaneColor;
         Line.SetColor(lineColor);
     }
 
@@ -66,6 +68,7 @@ public class AirplaneLine : MonoBehaviour
     }
     private IEnumerator ShowEvent()
     {
+        IsShow = true;
         Group.alpha = 1;
         Clear();
 
@@ -81,10 +84,12 @@ public class AirplaneLine : MonoBehaviour
             ShowImage(AirportTextImage);
         }
 
-        yield return new WaitForSeconds(1f);
+        //yield return new WaitForSeconds(1f);
 
         DOTween.To(() => AirplaneTVal, x => AirplaneTVal = x, 1, ShowTime).SetEase(Ease.Linear);
         yield return new WaitForSeconds(ShowTime);
+
+        IsShow = false;
     }
     private void ShowImage(Image image)
     {
@@ -120,7 +125,7 @@ public class AirplaneLine : MonoBehaviour
             AirplaneImage.transform.parent.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
             AirplaneImage.transform.localScale = Vector3.one * AirplaneScale.Evaluate(AirplaneTVal);
-            AirplaneImage.color = new Color(1, 1, 1, AirplaneFade.Evaluate(AirplaneTVal));
+            AirplaneImage.color = new Color(AirplaneImage.color.r, AirplaneImage.color.g, AirplaneImage.color.b, AirplaneFade.Evaluate(AirplaneTVal));
         }
 
 

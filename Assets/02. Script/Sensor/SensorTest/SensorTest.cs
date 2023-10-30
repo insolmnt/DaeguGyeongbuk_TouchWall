@@ -71,7 +71,7 @@ public class SensorTest : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F10))
+        if (Input.GetKeyDown(KeyCode.F9))
         {
             ShowTest(!IsShow);
         }

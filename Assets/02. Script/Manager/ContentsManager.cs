@@ -35,6 +35,10 @@ public class ContentsManager : MonoBehaviour
     public CanvasGroup ArrowGroup;
     public ArrowLine[] ArrowList;
 
+    public Image BigTextUp;
+    public Image BigTextDown;
+    public Image BigTextBox;
+
 
     [Header("사운드")]
     public AudioClip TrainSound;
@@ -905,6 +909,12 @@ public class ContentsManager : MonoBehaviour
         AirHandImage.gameObject.SetActive(Data.IsShowHandImage);
         TrainHandImage.gameObject.SetActive(Data.IsShowHandImage);
         DaeguHandImage.gameObject.SetActive(Data.IsShowHandImage);
+
+        BigTextBox.color = Data.BigTextBoxColor;
+        BigTextUp.color = Data.BigTextUpColor;
+        BigTextDown.color = Data.BigTextDownColor;
+
+
     }
     public void Save()
     {
@@ -954,6 +964,10 @@ public class ContentsData
 
     public Color DaeguCircleImageColor = Color.red;
     public Color MegaCircleImageColor = Color.red;
+
+    public Color BigTextDownColor = Color.black;
+    public Color BigTextUpColor = Color.red;
+    public Color BigTextBoxColor = Color.white;
 
     public float MegaEndWaitTime = 20f;
     public float TouchEndWaitTime = 5f;

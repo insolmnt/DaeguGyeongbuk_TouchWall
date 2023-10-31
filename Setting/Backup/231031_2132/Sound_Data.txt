@@ -1,0 +1,5 @@
+{
+    "BgWaitVolume": 0.5,
+    "BgPlayVolume": 0.5,
+    "EffectVolume": 1.0
+}

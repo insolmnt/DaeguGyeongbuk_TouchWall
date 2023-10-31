@@ -24,6 +24,10 @@ public class SettingContents : Setting
     public Image DaeguCircleImageType2Color;
     public Image MegaCircleImageType2Color;
 
+    public Image BigTextUpColor;
+    public Image BigTextDownColor;
+    public Image BigTextBoxColor;
+
     public NumberInputField ContentsWaitTime;
     public NumberInputField EndWaitTime;
 
@@ -116,6 +120,33 @@ public class SettingContents : Setting
                 Manager.SetData();
             });
         }
+        if (index == 8)
+        {
+            ColorSetting.Instance.ShowSetting("", Manager.Data.BigTextUpColor, true, (color) =>
+            {
+                Manager.Data.BigTextUpColor = color;
+                BigTextUpColor.color = Manager.Data.BigTextUpColor;
+                Manager.SetData();
+            });
+        }
+        if (index == 9)
+        {
+            ColorSetting.Instance.ShowSetting("", Manager.Data.BigTextDownColor, true, (color) =>
+            {
+                Manager.Data.BigTextDownColor = color;
+                BigTextDownColor.color = Manager.Data.BigTextDownColor;
+                Manager.SetData();
+            });
+        }
+        if (index == 10)
+        {
+            ColorSetting.Instance.ShowSetting("", Manager.Data.BigTextBoxColor, true, (color) =>
+            {
+                Manager.Data.BigTextBoxColor = color;
+                BigTextBoxColor.color = Manager.Data.BigTextBoxColor;
+                Manager.SetData();
+            });
+        }
     }
 
     public void OnInputChange()
@@ -152,6 +183,10 @@ public class SettingContents : Setting
 
             EndWaitTime.Val = Manager.Data.MegaEndWaitTime;
             ContentsWaitTime.Val = Manager.Data.TouchEndWaitTime;
+
+
+            BigTextUpColor.color = Manager.Data.BigTextUpColor;
+            BigTextDownColor.color = Manager.Data.BigTextDownColor;
             mIsLoad = true;
         }
     }

@@ -1,0 +1,90 @@
+{
+    "BgColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "AirplaneIconColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "AirplaneColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "AirplaneLineColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "TrainColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "RailroadIconColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "RailroadLineColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "ArrowLineColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "DaeguCircleImageColor": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "MegaCircleImageColor": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "BigTextDownColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "BigTextUpColor": {
+        "r": 0.49802166223526,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "BigTextBoxColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "MegaEndWaitTime": 20.0,
+    "TouchEndWaitTime": 5.0,
+    "TrainLineTime": 1.0,
+    "TrainMoveTime": 5.0,
+    "AirplaneLineTime": 2.0,
+    "AirplaneMoveTime": 4.0,
+    "TouchAreaScale": 1.5,
+    "BlueArrowShowTime": 2.5,
+    "TouchImageScale": 0.800000011920929,
+    "IsShowHandImage": true
+}

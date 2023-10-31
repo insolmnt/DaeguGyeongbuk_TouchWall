@@ -224,7 +224,7 @@ public class SettingScreen : Setting
 
         foreach (var item in ItemList)
         {
-            item.Monitor.MonitorCanvas.sortingOrder = 100;
+          //  item.Monitor.MonitorCanvas.sortingOrder = 100;
         }
         if (isClose)
         {
@@ -233,7 +233,7 @@ public class SettingScreen : Setting
         else
         {
             CurrentSetting = index;
-            ItemList[index].Monitor.MonitorCanvas.sortingOrder = 200;
+           // ItemList[index].Monitor.MonitorCanvas.sortingOrder = 200;
             ItemList[index].Monitor.ShowKeystoneSetting(true);
 
         }

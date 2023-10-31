@@ -215,11 +215,11 @@ public class ContentsManager : MonoBehaviour
             yield return null;
         }
 
-        IsPlay = false;
         EndAirplane();
 
         if (isAutoHide)
         {
+            IsPlay = false;
             ShowTouchImage(true);
 
             yield return new WaitForSeconds(Data.TouchEndWaitTime);
@@ -278,11 +278,11 @@ public class ContentsManager : MonoBehaviour
         {
             yield return null;
         }
-        IsPlay = false;
         TrainState = PlayState.재생완료;
 
         if (isAutoHide)
         {
+            IsPlay = false;
             ShowTouchImage(true);
 
             yield return new WaitForSeconds(Data.TouchEndWaitTime);
@@ -654,7 +654,6 @@ public class ContentsManager : MonoBehaviour
     }
     IEnumerator OnTouchMegaEvent()
     {
-        MegaState = PlayState.재생중;
         if (Data.IsShowHandImage)
         {
             AirHandImage.DOColor(new Color(1, 1, 1, 0), 0.5f);
@@ -694,6 +693,7 @@ public class ContentsManager : MonoBehaviour
             yield return new WaitForSeconds(2.1f);
         }
 
+        MegaState = PlayState.재생중;
 
 
         ShowAirplane(true, false);

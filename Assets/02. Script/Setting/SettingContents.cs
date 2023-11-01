@@ -31,6 +31,7 @@ public class SettingContents : Setting
     public NumberInputField ContentsWaitTime;
     public NumberInputField EndWaitTime;
 
+    public NumberInputField AutoPlayTime;
 
     public override void Init()
     {
@@ -159,6 +160,9 @@ public class SettingContents : Setting
 
         Manager.Data.MegaEndWaitTime = EndWaitTime.Val;
         Manager.Data.TouchEndWaitTime = ContentsWaitTime.Val;
+
+
+        Manager.Data.AutoPlayTime = AutoPlayTime.Val;
     }
 
     private bool mIsLoad = false;
@@ -187,6 +191,8 @@ public class SettingContents : Setting
 
             BigTextUpColor.color = Manager.Data.BigTextUpColor;
             BigTextDownColor.color = Manager.Data.BigTextDownColor;
+
+            AutoPlayTime.Val = Manager.Data.AutoPlayTime;
             mIsLoad = true;
         }
     }

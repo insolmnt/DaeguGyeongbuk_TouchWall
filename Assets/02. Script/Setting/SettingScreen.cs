@@ -209,7 +209,8 @@ public class SettingScreen : Setting
     {
         bool isClose = CurrentSetting == index;
 
-        SettingManager.Instance.SettingPanel.gameObject.SetActive(isClose);
+        if(SettingManager.Instance.IsShowSetting)
+            SettingManager.Instance.SettingPanel.gameObject.SetActive(isClose);
         SetMaskNull(!isClose);
 
         foreach (var item in ItemList)
@@ -291,15 +292,25 @@ public class SettingScreen : Setting
 
     private void Update()
     {
-        if(IsShowSetting == false)
+        if (Input.GetKeyDown(KeyCode.F5))
+        {
+            OnKeystoneSettingClick(0);
+        }
+
+        if (Input.GetKeyDown(KeyCode.F6))
+        {
+            OnKeystoneSettingClick(1);
+        }
+
+        if (IsShowSetting == false)
         {
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            ShowKeystoneLine(!KeystoneLinePanel.gameObject.activeSelf);
-        }
+        //if (Input.GetKeyDown(KeyCode.Tab))
+        //{
+        //    ShowKeystoneLine(!KeystoneLinePanel.gameObject.activeSelf);
+        //}
 
         if (Input.GetKey(KeyCode.PageDown))
         {
@@ -310,16 +321,6 @@ public class SettingScreen : Setting
             SetLineSpacting(KeystoneLineSpacing + Time.deltaTime * 30f);
         }
 
-
-        if (Input.GetKeyDown(KeyCode.F5))
-        {
-            OnKeystoneSettingClick(0);
-        }
-
-        if (Input.GetKeyDown(KeyCode.F6))
-        {
-            OnKeystoneSettingClick(1);
-        }
 
         if (Input.GetKeyDown(KeyCode.CapsLock))
         {

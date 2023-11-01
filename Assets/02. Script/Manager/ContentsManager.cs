@@ -75,7 +75,7 @@ public class ContentsManager : MonoBehaviour
     public PlayState TrainState = PlayState.대기;
     public PlayState AirplaneState = PlayState.대기;
     public PlayState MegaState = PlayState.대기;
-    public float MegaEndCurrentTime = 0;
+    public float EndCurrentTime = 0;
 
     public bool IsWait = true;
     public bool IsPlay = false;
@@ -283,6 +283,7 @@ public class ContentsManager : MonoBehaviour
             yield return null;
         }
         TrainState = PlayState.재생완료;
+        EndCurrentTime = 0;
 
         if (isAutoHide)
         {
@@ -370,7 +371,7 @@ public class ContentsManager : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         //메가 끝
         MegaState = PlayState.재생완료;
-        MegaEndCurrentTime = 0;
+        EndCurrentTime = 0;
 
         PhotoManager.Instance.ShowWait();
         IsPlay = false;
@@ -413,6 +414,7 @@ public class ContentsManager : MonoBehaviour
     public void EndTrain()
     {
         TrainState = PlayState.재생완료;
+        EndCurrentTime = 0;
 
         //if (AirplaneState == PlayState.재생완료)
         //{
@@ -422,6 +424,7 @@ public class ContentsManager : MonoBehaviour
     public void EndAirplane()
     {
         AirplaneState = PlayState.재생완료;
+        EndCurrentTime = 0;
 
         //if(TrainState == PlayState.재생완료)
         //{
@@ -464,7 +467,7 @@ public class ContentsManager : MonoBehaviour
             AirHandImage.DOColor(new Color(1, 1, 1, 0), 0.5f);
 
             TrainHandImage.transform.DOLocalRotate(new Vector3(30, 0, 0), 0.3f);
-            RailroadIcon.transform.DOScale(Vector3.one * Data.TouchImageScale, 0.2f);
+            RailroadIcon.transform.DOScale(Vector3.one * Data.TouchImageScaleNew, 0.2f);
             yield return new WaitForSeconds(0.2f);
             RailroadIcon.transform.DOScale(Vector3.one * 1f, 0.5f);
             yield return new WaitForSeconds(0.1f);
@@ -474,7 +477,7 @@ public class ContentsManager : MonoBehaviour
         }
         else
         {
-            RailroadIcon.transform.DOScale(Vector3.one * Data.TouchImageScale, 0.2f);
+            RailroadIcon.transform.DOScale(Vector3.one * Data.TouchImageScaleNew, 0.2f);
             yield return new WaitForSeconds(0.2f);
             RailroadIcon.transform.DOScale(Vector3.one * 1f, 0.5f);
             yield return new WaitForSeconds(0.5f);
@@ -566,7 +569,7 @@ public class ContentsManager : MonoBehaviour
             TrainHandImage.DOColor(new Color(1, 1, 1, 0), 0.5f);
 
             AirHandImage.transform.DOLocalRotate(new Vector3(30, 0, 0), 0.3f);
-            AirportIcon.transform.DOScale(Vector3.one * Data.TouchImageScale, 0.2f);
+            AirportIcon.transform.DOScale(Vector3.one * Data.TouchImageScaleNew, 0.2f);
             yield return new WaitForSeconds(0.2f);
             AirportIcon.transform.DOScale(Vector3.one * 1f, 0.5f);
             yield return new WaitForSeconds(0.1f);
@@ -576,7 +579,7 @@ public class ContentsManager : MonoBehaviour
         }
         else
         {
-            AirportIcon.transform.DOScale(Vector3.one * Data.TouchImageScale, 0.2f);
+            AirportIcon.transform.DOScale(Vector3.one * Data.TouchImageScaleNew, 0.2f);
             yield return new WaitForSeconds(0.2f);
             AirportIcon.transform.DOScale(Vector3.one * 1f, 0.5f);
             yield return new WaitForSeconds(0.5f);
@@ -664,7 +667,7 @@ public class ContentsManager : MonoBehaviour
             TrainHandImage.DOColor(new Color(1, 1, 1, 0), 0.5f);
 
             DaeguHandImage.transform.DOLocalRotate(new Vector3(30, 0, 0), 0.3f);
-            DaeguIcon.transform.DOScale(Vector3.one * Data.TouchImageScale, 0.2f);
+            DaeguIcon.transform.DOScale(Vector3.one * Data.TouchImageScaleNew, 0.2f);
             yield return new WaitForSeconds(0.2f);
             DaeguIcon.transform.DOScale(Vector3.one * 1f, 0.5f);
             yield return new WaitForSeconds(0.1f);
@@ -674,7 +677,7 @@ public class ContentsManager : MonoBehaviour
         }
         else
         {
-            DaeguIcon.transform.DOScale(Vector3.one * Data.TouchImageScale, 0.2f);
+            DaeguIcon.transform.DOScale(Vector3.one * Data.TouchImageScaleNew, 0.2f);
             yield return new WaitForSeconds(0.2f);
             DaeguIcon.transform.DOScale(Vector3.one * 1f, 0.5f);
             yield return new WaitForSeconds(0.5f);
@@ -782,6 +785,17 @@ public class ContentsManager : MonoBehaviour
         //    }
         //}
 
+        if(MegaState == PlayState.재생완료 
+            || (MegaState != PlayState.재생중 && (AirplaneState == PlayState.재생완료 || TrainState == PlayState.재생완료))
+            || (MegaState == PlayState.대기 || AirplaneState == PlayState.대기 || TrainState == PlayState.대기))
+        {
+            EndCurrentTime += Time.deltaTime;
+            if(EndCurrentTime > Data.AutoPlayTime)
+            {
+                OnTouchMega();
+            }
+        }
+
         if (IsWait)
         {
             if(AirplaneState == PlayState.재생중 || TrainState == PlayState.재생중 || MegaState == PlayState.재생중)
@@ -803,6 +817,12 @@ public class ContentsManager : MonoBehaviour
 
             }
         }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            TestImage.gameObject.SetActive(!TestImage.gameObject.activeSelf);
+        }
+
+
         if (SettingManager.Instance.IsShowSetting)
         {
             return;
@@ -834,10 +854,6 @@ public class ContentsManager : MonoBehaviour
             Time.timeScale = 1;
         }
 
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            TestImage.gameObject.SetActive(!TestImage.gameObject.activeSelf);
-        }
 
         if (Input.GetKeyDown(KeyCode.F1))
         {
@@ -852,22 +868,22 @@ public class ContentsManager : MonoBehaviour
             OnTouchMega();
         }
 
-        if (Input.GetKeyDown(KeyCode.F5))
-        {
-            ShowAirplane(!IsShowAirplane, true);
-        }
-        if (Input.GetKeyDown(KeyCode.F6))
-        {
-            ShowTrain(!IsShowRailroad, true);
-        }
-        if (Input.GetKeyDown(KeyCode.F7))
-        {
-            ShowArrow(!IsShowArrow);
-        }
-        if (Input.GetKeyDown(KeyCode.F8))
-        {
-            ShowMega(!IsShowMega);
-        }
+        //if (Input.GetKeyDown(KeyCode.F5))
+        //{
+        //    ShowAirplane(!IsShowAirplane, true);
+        //}
+        //if (Input.GetKeyDown(KeyCode.F6))
+        //{
+        //    ShowTrain(!IsShowRailroad, true);
+        //}
+        //if (Input.GetKeyDown(KeyCode.F7))
+        //{
+        //    ShowArrow(!IsShowArrow);
+        //}
+        //if (Input.GetKeyDown(KeyCode.F8))
+        //{
+        //    ShowMega(!IsShowMega);
+        //}
 
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -982,9 +998,11 @@ public class ContentsData
 
     public float BlueArrowShowTime = 2.5f;
 
-    public float TouchImageScale = 0.8f;
+    public float TouchImageScaleNew = 1.3f;
 
     public bool IsShowHandImage = true;
+
+    public float AutoPlayTime = 60f;
 }
 
 public enum PlayState
